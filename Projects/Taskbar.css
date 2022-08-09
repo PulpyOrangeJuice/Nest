@@ -1,17 +1,27 @@
+/* close icon class="fa" &#xf00d; */
+* {
+  margin: 0px;
+}
+
 .container {
+
   background-color: #b72a67;
   border: 3px solid black;
   width: 100vw;
   height: 100vh;
+
 }
 
 .leftbar {
+
   background-color: #8d2050;
   height: 100vh;
   width: 250px;
+
 }
 
-.threebar {
+.threeBar {
+
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -19,123 +29,141 @@
   gap: 2px;
   padding: 20px;
   transition: 1s;
+
 }
 
 .top {
-  margin-left: 5px;
+
   width: 20px;
   height: 5px;
   background-color: white;
-  box-shadow: 0px 5px 50px 5px white;
+  box-shadow: 0px 5px 50px 5px whitesmoke;
   transition: 1s;
+
 }
 
 .mid {
-  margin-left: 5px;
 
   width: 20px;
   height: 5px;
   background-color: white;
-  box-shadow: 0px 5px 50px 5px white;
+  box-shadow: 0px 5px 50px 5px whitesmoke;
+  transition: 0.5s;
+
 }
 
 .bot {
-  margin-left: 5px;
+
   width: 20px;
   height: 5px;
   background-color: white;
-  box-shadow: 0px 5px 50px 5px white;
+  box-shadow: 0px 5px 50px 5px whitesmoke;
   transition: 1s;
+
 }
 
 .names {
+
   position: relative;
   left: 70px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 
 }
 
 .namuun {
+
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  transition: 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.4s;
+  position: relative;
+  right: 20px;
+  transition-delay: 0.1s;
+
 }
 
 .dulguun {
+
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  transition: 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.4s;
+  position: relative;
+  right: 20px;
+  transition-delay: 0.2s;
+
 }
 
 .chuka {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
   color: white;
-  transition: 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.4s;
+  position: relative;
+  right: 20px;
+  transition-delay: 0.3s;
+
 }
 
-.threebar:hover .top {
+.threeBar:hover .top {
+
   transform: translateY(7px) rotateZ(45deg);
+
 }
 
-.threebar:hover .mid {
+.threeBar:hover .mid{
+
   width: 0;
+
 }
 
-.threebar:hover .bot {
+.threeBar:hover .bot{
+
   transform: translateY(-7px) rotateZ(-45deg);
+
 }
 
 .namuun:hover {
-  width: 80px;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-}
 
-.dulguun:hover {
-  width: 80px;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-}
-
-.chuka:hover {
-  width: 80px;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-}
-
-.chuka::content{
-    width: 80px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-.threebar:hover + .names .namuun {
-
-    display: flex;
-    
-    transform: translateX(10px);
-    transition: 0.5s;
-    
+  width: 90px;
+  border-top: 2px  solid white;
+  border-bottom: 2px  solid white;
 
 }
 
-.threebar:hover + .names .dulguun {
+.dulguun:hover  {
 
-    display: flex;
-    transform: translateX(10px);
-    transition: 1s;
-    
+  width: 90px;
+  border-top: 2px  solid white;
+  border-bottom: 2px  solid white;
+  
+}
+
+.chuka:hover  {
+
+  width: 90px;
+  border-top: 2px  solid white;
+  border-bottom: 2px  solid white;
 
 }
 
-.threebar:hover + .names .chuka {
+.threeBar:hover + .names .namuun {
 
-    display: flex;
-    transform: translateX(10px);
-    transition: 1.5s;
+  position: relative;
+  right: 0px;
 
 }
 
+.threeBar:hover + .names .dulguun {
 
+  position: relative;
+  right: 0px;
+
+}
+
+.threeBar:hover + .names .chuka {
+
+  position: relative;
+  right: 0px;
+
+}
