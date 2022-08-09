@@ -1,0 +1,49 @@
+/* .header {
+
+    width: auto;
+    height: 800px;
+    background-color: green;
+
+} */
+
+
+.sec {
+
+ /* width: 200px;
+    height: 200px;
+    background-color: red; */
+
+    width: 500px;
+    height: 500px;
+    transition: transform 100000s ;
+
+    
+}
+
+.sec:hover {
+
+    /* width: 300px;
+    height: 400px;
+    background-color: orange; */
+    transform: rotate(9000000deg);
+    
+
+}
+
+/* .sect {
+
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    overflow: scroll;
+   
+}
+
+
+.lorem {
+
+    color: black;
+    font-size: larger;
+    
+
+} */

@@ -1,0 +1,71 @@
+.sale {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 60px;
+  border: solid brown;
+  background-color: brown;
+  border-radius: 10%;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.mag {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.div2 {
+  position: absolute;
+  top: 0;
+  padding-left: 550px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  padding-top: 100px;
+}
+
+.gg {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.k {
+  background-color: transparent;
+}
+
+.check {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+.btn {
+  padding: 20px;
+  background-color: transparent;
+}
+
+.div4 {
+  padding-top: 200px;
+}
+.catfood {
+  background-color: pink;
+  z-index: 1;
+  position: absolute;
+  left: 170px;
+  top: 335px;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.cat {
+  z-index: 0;
+}

@@ -1,0 +1,65 @@
+.container {
+
+background-color: cadetblue;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.rec1 {
+
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    margin-right: 2px;
+    animation: updown 1.5s ease-in-out 0.1s infinite ;
+}
+
+.rec2 {
+
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    margin-right: 2px;
+    animation: updown 1.5s ease-in-out 0.2s infinite ;
+    
+}
+
+.rec3 {
+
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    margin-right: 2px;
+    animation: updown 1.5s ease-in-out 0.3s infinite ;
+    
+}
+
+.rec4 {
+
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    margin-right: 2px;
+    animation: updown 1.5s ease-in-out 0.4s infinite ;
+    
+}
+.rec5 {
+
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    animation: updown 1.5s ease-in-out 0.5s infinite ;
+    
+}
+
+@keyframes updown {
+    0% , 40% , 100% {
+        transform: scaleY(2);
+    }20% {
+        transform: scaleY(4);
+    }
+}

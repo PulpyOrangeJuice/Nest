@@ -1,0 +1,42 @@
+
+.container {
+
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(3, 200px);
+        border: 1px solid aqua;
+        grid-template-areas:
+        "y y y y"
+        "b b . r"
+        "g g g g";
+
+}
+
+.one {
+    /* grid-column: 1 / span 4; */
+    grid-area: y;
+    background-color: yellow;
+
+}
+
+.two {
+    /* grid-column: 1 / span 2;
+    grid-column: 2;
+    grid-row: 1; */
+    grid-area: b;
+    background-color: blue;
+
+}
+
+.three {
+
+    grid-area: r;
+    background-color: red;
+}
+
+.four {
+
+    grid-area: g;
+    background-color: green;
+
+}

@@ -1,0 +1,44 @@
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 50% 50%;
+    height: 700px;
+    width: 900px;
+    border: 1px solid red;
+    background-color: silver;
+    gap: 15px;
+
+}
+
+.img {
+
+    
+    position: relative;
+    margin-top: 15px;
+    width: 230px;
+    height: 230px;
+
+}
+
+.sale {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(201, 89, 33);
+    width: 41px;
+    height:20px;
+    border: 1px solid rgb(201, 89, 33);
+    border-radius: 15%;
+    color: white;
+
+}
+
+.c {
+
+    position: relative;
+    background-color: white;
+
+
+}
